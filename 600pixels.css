@@ -1,0 +1,170 @@
+/* media queries */
+
+html, body {
+    height: 100%;
+}
+    
+.page_width {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.top_area {
+	padding: 0;
+}
+
+ .top_area header, section {
+    padding: 0;
+ }
+
+.menu {             
+    border:none; 
+    padding: 0;         
+    margin: 0px auto;    
+    
+}
+
+.menu li {
+    width: 95px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    float:left;
+    
+    background: none;   
+    
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;    
+    box-shadow: none;
+ 
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    
+    border-right: 1px solid black;       
+    
+}
+
+.menu li:first-child {
+    border: none;
+    border-right: 1px solid black;
+}
+
+.menu li:last-child {
+    border: none;
+}
+
+.menu li a {    
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+ 
+}
+
+.menu li:hover {
+    background: none;
+    
+}
+
+.menu li:hover .content {
+    color: blue;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+}
+
+.content {
+    
+    width: 100%;
+    height: 100%;
+    left: 0px;    
+    top: -20px;
+    position: absolute;
+}
+
+/* this is a way to force FireFox to use this section */
+@-moz-document url-prefix() {
+    .content
+    {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+}
+
+.menu_text {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 8.0pt;
+}
+
+
+/* main content section  */
+.main_content article {
+    width: 100%;
+    height: 300px;    
+}
+
+#pictures {
+    width: 320px;
+    margin: 100px auto 0 auto;
+}
+
+#pictures article {
+    height: 100%;
+    text-align: center;
+    float: none;
+    padding: 2px 50px 25px 10px;
+}
+
+#pictures a {
+    text-align: center;
+    position: relative;    
+}
+
+footer {       
+    padding: 20px;
+    position:absolute;
+    margin: 0 auto;
+    height: 150px;
+    clear: both;
+}
+
+.multi_columns {
+    -moz-column-count: 1; /* Mozilla Firefox */
+    -webkit-column-count: 1; /* Chrome and Safari */
+    column-count: 1;
+
+}
+
+.multi_columns div {
+    height: 25px;
+}
+
+.multi_columns a {
+    width: 100%;
+    text-align: center;
+    float: none;
+    padding: 0;
+}
+
+.multi_columns ul {
+    padding: 0;
+    display: none;
+}
+
+/* detail page section */
+detail_content article {
+    width: 100%;
+    height: 300px;    
+}

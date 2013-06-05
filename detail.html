@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Tauri|Headland+One|Arimo' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <title>Motorcycles</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link media="(max-width: 600px)" rel="stylesheet" type="text/css" href="600pixels.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="top_area">
+            <header>
+                <ul class="menu page_width">
+                    <li>
+                        <a href="#">                            
+                            <div class="content">                        
+                                <span class="menu_text">MOTORCYCLES</span>                                
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                            
+                            <div class="content">                                
+                                <span class="menu_text">BEGINNERS</span>                                
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="content">                                
+                               <span class="menu_text">BUYING ADVICE</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                            
+                            <div class="content">
+                                <span class="menu_text">ENTHUSIASTS </span>                               
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                            
+                            <div class="content">                               
+                                <span class="menu_text">MORE INFO</span>                                
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </header>            
+            
+            <div class="main_content page_width">
+                
+                <h2>Motorcycles</h2>
+                <p>
+                    While motorcycling is a great deal of fun, it's important to approach learning how to ride with 
+                    the respect and caution it deserves; taking that attitude not only will ensure that you're entering 
+                    this high risk activity with thoughtfulness and self-preservation, but it will make the whole process 
+                    even more enjoyable.<br /><br />
+                    So you've always wanted to know how to ride a motorcycle? Welcome to our step-by-step tutorial for 
+                    street riding! If you're interested in riding in the dirt, check out this tutorial first and then 
+                    take a look at our How to Ride a Dirtbike article. <br /><br />
+                    Perhaps you know what kind of motorcycle type you're interested in, or maybe you've already read up on 
+                    the first steps to start riding-- regardless of where you are in the process, think of this tutorial 
+                    as an outline of the basics on how to operate a motorcycle, and remember that there's no substitute 
+                    for a Motorcycle Safety Foundation course. Whether you're learning to ride or you're a seasoned pro, 
+                    remember to always wear your safety gear.
+                </p>  
+
+                <video width="320" height="240" controls>
+                  <source src="motorcycle_parade.mov" type="video/mp4">  
+                  <source src="motorcycle_parade.ogv" type="video/ogg">                 
+                  Your browser does not support the video tag.
+                </video>
+
+                <h2>Beginners</h2>
+                <p>
+                    So you want to ride a motorcycle? Here's a checklist you'll want to consider before you jump in the saddle:<br /><br />
+                    <b>Safety Gear</b><br />
+                    Motorcycling is a high-risk activity, and the most vulnerable riders are new ones. Protecting yourself with proper 
+                    safety gear is an easy way to save yourself from injury, but the cost of gear adds up, and you'll want to add this 
+                    to your biking budget.<br /><br />
+                    <b>Training Courses</b><br />
+                    Though it's common practice to experience your first ride in a parking lot, leave motorcycle training to the pros 
+                    and take a Motorcycle Safety Foundation course. The skills you'll learn will last you a lifetime, and MSF 
+                    instructors will educate you with fundamental skills that will make you a better, more competent rider.                            
+                </p>
+
+                <form action="detail.html" method="get">
+                    What's your favorite type:
+                    <input list="motorcycle_types" name="motorcycle_type" />
+                    <datalist id="motorcycle_types">
+                        <option value="Cruiser"></option>
+                        <option value="Dirt"></option>
+                        <option value="Sport"></option>
+                        <option value="Dual Purpose"></option>
+                        <option value="Superbike"></option>
+                    </datalist>
+                    <input type="submit" title="Submit" />
+                </form> 
+                
+                               
+            </div>            
+
+            
+            
+
+            
+        </div>
+
+        <footer>
+            <div class="page_width">
+                <div class="multi_columns clearfix">
+                    <div>
+                        <a href="#">Motorcycles</a>
+						<ul>
+							<li><a href="#">How to ride</a></li>
+							<li><a href="#">Things to know</a></li>
+							<li><a href="#">Motorcycle gear</a></li>
+						</ul>
+                    </div>
+                    <div>
+                        <a href="#">Beginners</a>
+						<ul>
+							<li><a href="#">All about motorcycles</a></li>
+							<li><a href="#">Riding 101</a></li>
+							<li><a href="#">Common questions</a></li>
+						</ul>
+                    </div>
+                    <div>
+                        <a href="#">Buying Advice</a>
+						<ul>
+							<li><a href="#">Latest motorcycle reviews</a></li>
+							<li><a href="#">Types</a></li>							
+						</ul>
+                    </div>
+                    <div>
+                        <a href="#">Enthusiasts</a>
+						<ul>
+							<li><a href="#">Motorcycle maintenance</a></li>
+							<li><a href="#">Touring tips</a></li>
+							<li><a href="#">Gear & accessories</a></li>
+                            <li><a href="#">Motorcycle events</a></li>
+						</ul>
+                    </div>
+                    <div>
+                        <a href="#">More Info</a>
+						<ul>
+							<li><a href="#">10 great first bikes</a></li>
+							<li><a href="#">A visual guide to bike types</a></li>							
+						</ul>
+                    </div>
+                </div>
+                <p>© 2013 Oscar H Magana</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
